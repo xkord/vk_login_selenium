@@ -15,7 +15,7 @@ Prepare configuration files. Configuration file format:
 	LOGIN = 'login'
 	PASSWORD = 'password'
 
-You can create few configuration files for logginig into few vk accounts. Configuration file names must ends with '.conf'.
+You can create few configuration files for login into few vk accounts. Configuration file names must ends with '.conf'.
 
 Run:
 
