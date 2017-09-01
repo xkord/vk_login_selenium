@@ -12,8 +12,8 @@ mkdir configs
 
 Prepare configuration files. Configuration file format:
 
-		LOGIN = 'login'
-		PASSWORD = 'password'
+	LOGIN = 'login'
+	PASSWORD = 'password'
 
 You can create few configuration files for logginig into few vk accounts. Configuration file names must ends with '.conf'.
 
