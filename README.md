@@ -15,7 +15,7 @@ mkdir configs
 	LOGIN = 'login'
 	PASSWORD = 'password'
 
-You can create few configuration files for logginig into few vk accounts.
+You can create few configuration files for logginig into few vk accounts. Configuration file names must ends with '.conf'.
 
 3. Run:
 
