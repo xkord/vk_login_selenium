@@ -4,6 +4,7 @@ import os
 from settings import read_settings
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.remote.command import Command
 
 __version__ = "0.0.1.dev0"
 logger = logging.getLogger(__name__)
@@ -29,8 +30,8 @@ def parse_arguments():
     return parser.parse_args()
 
 def vk_login_selenium(browser, settings):
-    browser.set_page_load_timeout(30)
-    browser.implicitly_wait(30);
+    #browser.set_page_load_timeout(30)
+    #browser.implicitly_wait(30);
     browser.get('https://www.vk.com')
     
     email = browser.find_element_by_id('index_email')
