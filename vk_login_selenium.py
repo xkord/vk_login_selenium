@@ -57,7 +57,7 @@ def main():
     else:
         logger.setLevel(logging.INFO)
 
-    logger.debug('vk_promo version: %s', __version__)
+    logger.debug('vk_login_selenium version: %s', __version__)
 
     if args.configs is not None and os.path.isdir(args.configs):
         configs_dir = args.configs
